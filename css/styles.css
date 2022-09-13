@@ -13,7 +13,7 @@ body{
     width: 100vw;
     height: 50px;
     position: relative;
-    font-size: 45px;
+    font-size: 35px;
     text-decoration: underline;
 }
 .nav1{
@@ -245,6 +245,11 @@ input[type=submit]:hover {
     background-color: #04AA6D;
     width: 100%;
     text-align: right;
+}
+i{
+    font-size: 25px;
+    color: blue;
+    float: left;
 }
 .end{
     font-style: oblique;
