@@ -1,0 +1,256 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.header{
+    background-color: #dc143d;
+    text-align: center;
+    font-style: italic;
+    color: #ffff00;
+    margin-top: -4px;
+    margin-bottom: 0px;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.nav1{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    padding: 50px;
+    font-size: 30px;
+}
+.bar{    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(../img/nav.jpg); 
+    background-size: 100% 100%;  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: sticky;
+    top: 0px;
+}
+.oink{
+    height: 100px;
+}
+a.nav:link {
+    text-decoration: none;
+  }
+  
+a.nav:visited {
+    text-decoration: none;
+  }
+  
+a.nav:hover {
+    text-decoration: underline;
+  }
+  
+a.nav:active {
+    text-decoration: underline;
+  }
+a.nav:hover {
+    background-color: #ff0000; 
+}
+a.nav:visited{
+    color: #ffff00;
+  }
+a.nav:link{
+    color: #ffffff;
+}
+.column1{
+    width: 33.3%;
+    height: 500px;
+    float: left;
+}
+.firstrowcolumn1{
+    background-image: url(../img/melons.jpg);
+    background-size: cover;
+}
+.firstrowcolumn2{
+    background-image: url(../img/dans\ logo.webp);
+    background-size: 100% 100%;
+}
+.firstrowcolumn3{
+    background-image: url(../img/sweettatos.webp);
+}
+.column2{
+    width: 33.3%;
+    height: 200px;
+    float: left;
+}
+.column2h2{
+    text-align: center;
+    font-size: 40px;
+}
+.coulumn2p{
+    text-align: center;
+    font-size: 30px;
+}
+.firstrowcolumn3{
+    padding-bottom: 0px;
+}
+.column3{
+    width: 33.3%;
+    height: 200px;
+    float: left;
+}
+.thirdrowcolumn2{
+    text-align: center;
+}
+.column3h2{
+    text-decoration: underline;
+    font-size: 45px;
+    font-style: italic;
+    color: purple;
+}
+.column4{
+    width: 33.3%;
+    height: 400px;
+    float: left;
+}
+.fourthrowcolumn1{
+    column-count: 3;
+    font-size: 20px;
+}
+.fourthrowcolumn2{
+    background-image: url(../img/fields.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.fourthrowcolumn3{
+    background-image: url(../img/brand.webp);
+    background-size: 100% 100%;
+}
+.row5{
+    width: 100vw;
+    height: 250px;
+    margin-top: 15px;
+    float: left;
+    background-image: url(../img/sub.jpg);
+    background-size:contain;
+  }
+.row5h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.column6{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.time{
+    list-style: none;
+}
+.time1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.location{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  /* (about) styles next section */
+.section1{
+    width: 50%;
+    height: 500px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 55px;
+    background-image: url(../img/water.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.firstsection1{
+    background-image: url(../img/brand.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 500px;
+}
+.sect1h2{
+    text-align: center;
+    font-style: oblique;
+    color: red;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.firstsection2{
+    width: 1000px;
+}
+.sect1p{
+    font-size: 25px;
+    font-style: oblique;
+    color:rebeccapurple;
+    font-weight: 900;
+}
+.section2{
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.sect2h2{
+    font-style: oblique;
+}
+.sect2p{
+    font-style: oblique;
+    font-size: 30px;
+}
+/* CONTACT SEC */
+.contoph2{
+    font-style: oblique;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.con1{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.conh2{
+    font-style: oblique;
+}
+.firstcon2{
+    background-image: url(../img/melonslice\ \(1\).jpg) ;
+    background-size: 100% 100%;
+    margin-top: -150px;
+}
+.footer{
+    float: left;
+    background-color: #04AA6D;
+    width: 100%;
+    text-align: right;
+}
+.end{
+    font-style: oblique;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
