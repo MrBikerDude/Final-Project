@@ -194,29 +194,41 @@ input[type=submit] {
     opacity: 0.8;
   }
   /* (about) styles next section */
-.firstsection1{
+.section0{
+    width: 33.3%;
+    height: 200px;
+    float: left;
+}
+.section1{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.vid{
+    margin-left: 200px;
+}
+.aboutvid{
+    text-align: right;
+}
+.nonesection2{
     background-image: url(../img/brand.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 500px;
-    width: 500px;
-    float:left
+    height:300px;
+    float:left;
 }
-.thirdsection1{
+.firstsection1{
     width: 1000px;
-    height: 500px;
-    margin-top: 15px;
     float: left;
-    margin-right: 200px;
-    background-image: url(../img/water.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;}
+    margin-left: 10px;
+}
 .firstsection3{
-        float: right
+        float: left
         }
 .sect1h2{
     text-align: center;
-    font-style: oblique;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Smooch', cursive;
     color: red;
     font-size: 45px;
     text-decoration: underline;
