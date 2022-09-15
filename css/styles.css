@@ -125,19 +125,6 @@ a.nav:link{
     background-image: url(../img/brand.webp);
     background-size: 100% 100%;
 }
-.row5{
-    width: 100vw;
-    height: 250px;
-    margin-top: 15px;
-    float: left;
-    background-image: url(../img/sub.jpg);
-    background-size:contain;
-  }
-.row5h2{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-}
 .column6{
     width: 50%;
     height: 600px;
@@ -154,11 +141,22 @@ a.nav:link{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-iframe{
+.map{
     width: 100%;
     height: 100%;
+    float: left;
 }
-input[type=text], input[type=submit] {
+form {
+    border: 3px solid #f1f1f1;
+    font-family: Arial;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
@@ -166,41 +164,47 @@ input[type=text], input[type=submit] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
-input[type=submit] {
-    background-color: #04AA6D;
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: #aa0404;
     color: white;
     border: none;
   }
-input[type=submit]:hover {
+  
+  input[type=submit]:hover {
     opacity: 0.8;
   }
   /* (about) styles next section */
-.section1{
-    width: 50%;
-    height: 500px;
-    margin-top: 15px;
-    float: left;
-    margin-left: 55px;
-    background-image: url(../img/water.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 .firstsection1{
     background-image: url(../img/brand.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 500px;
     width: 500px;
+    float:left
 }
+.thirdsection1{
+    width: 1000px;
+    height: 500px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 200px;
+    background-image: url(../img/water.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.firstsection3{
+        float: right
+        }
 .sect1h2{
     text-align: center;
     font-style: oblique;
     color: red;
     font-size: 45px;
     text-decoration: underline;
-}
-.firstsection2{
-    width: 1000px;
 }
 .sect1p{
     font-size: 25px;
@@ -245,6 +249,12 @@ input[type=submit]:hover {
     background-color: #04AA6D;
     width: 100%;
     text-align: right;
+}
+.footer1{
+    float: left;
+}
+.lastrow3{
+    float: right;
 }
 i{
     font-size: 25px;
