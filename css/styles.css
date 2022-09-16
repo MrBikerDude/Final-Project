@@ -259,7 +259,7 @@ input[type=submit] {
     margin-top: 100px;
 }
 .con1{
-    width: 50%;
+    width: 45%;
     height: 600px;
     float: left;
 }
@@ -270,7 +270,13 @@ input[type=submit] {
     background-image: url(../img/melonslice\ \(1\).jpg) ;
     background-size: 100% 100%;
     margin-top: -150px;
+    width: 800px;
+    border-radius: 20%;
 }
+.firstcon1{
+    margin-left: 20px;
+}
+/* footer next sect */
 .footer{
     float: left;
     background-color: #04AA6D;
