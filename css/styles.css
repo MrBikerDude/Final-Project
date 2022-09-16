@@ -328,6 +328,7 @@ input[type=submit] {
 .boat1{
     float: left;
     width: 33%;
+    height: 500px;
 }
 .shiph2{
     font-family: 'Orbitron', sans-serif;
@@ -360,6 +361,26 @@ input[type=submit] {
     width: 300px;
     float: left;
     border-radius: 40%;
+}
+.boat2{
+    float: left;
+    height: 500px;
+    width: 33%;
+}
+audio{
+    margin-left: 235px;
+    margin-top: 50px;
+}
+.audioh2{
+    margin-left: 235px;
+    font-size: 15px;
+}
+.secondrowboat1{
+margin-left: 15px;
+width: 400px;
+}
+.map2{
+    border-radius: 10%;
 }
 .row:after {
     content: "";
