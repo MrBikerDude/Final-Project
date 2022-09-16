@@ -283,10 +283,37 @@ input[type=submit] {
 .lastrow3{
     float: right;
 }
-i{
-    font-size: 25px;
-    color: blue;
+.lastrow5{
     float: left;
+}
+.lastrow2{
+    float: left;
+}
+.fa-square-instagram{
+    font-size: 40px;
+    float: left;
+    background-image: linear-gradient( red, orange, yellow, violet);
+}
+.fa-facebook{
+    font-size: 40px;
+    float: left;
+    color: blue;
+}
+.fa-square-twitter{
+    font-size: 40px;
+    float: left;
+    color: aqua;
+}
+.fot{
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Smooch', cursive;
+    margin-left: 400px;
+}
+.inq{
+    margin-right: 10px;
+    border-style: double;
+    background-color: #dc143d;
+    text-decoration: none;
 }
 .end{
     font-style: oblique;
